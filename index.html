@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Learn Everyday</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id = "navbar" class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark py-3 navbar-nav-scroll">
+        <div class="container">
+            <a href="#" class="navbar-brand">Learn Everyday</a>
+            
+            <button class="navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse  navbar-collapse" id = "navmenu">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li >
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+     <section class = "bg-dark text-light p-5 text-center text-sm-start">
+         <div class = "container">
+            <div class="d-sm-flex align-items-center  justify-content-between">
+                <div>
+                    <h1> Become a <span class="text-warning"> Web Developer</span> </h1>
+               
+                    <p class = "lead my-4">
+                    Hurry Up and join today to get the exclusive offer that ends on March 01, 2022. Join to learn some exciting CSS styles
+                    and build creative webpages. 
+                    </p>
+
+                    <button class="btn btn-primary btn-lg mb-3" data-bs-toggle="modal" data-bs-target = "#enroll"> Join Now </button>
+                </div>
+                <img class = "img-fluid w-50 d-none d-sm-block" src = "img/web1.png" alt = "Learn HTML and CSS for web development" />    
+            </div>
+         </div>
+     </section>
+
+    <!-- Newsletter -->
+    <section class="bg-success text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter your email address">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary btn-lg btn-danger text-light" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4 row-height">
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat tempora, fuga vero corrupti iste?
+                            </p>
+                        </div>
+
+                        <div class = "card-footer background-transparent border-dark mb-2">
+                            <a href="#" class="btn btn-primary text-light">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center ">
+                            <h1 class="mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </h1>
+                            <h3 class="card-title mb-3">Hybrid</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus, velit doloribus quae eius distinctio!
+                            </p>
+                        </div>
+
+                        <div class = "card-footer background-transparent border-dark mb-2">
+                            <a href="#" class="btn btn-primary text-light">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <h1 class = "mb-3">
+                                <i class="bi bi-people"></i>
+                            </h1>
+                           <h3 class="card-title mb-3">In Person</h3>
+                           <p>
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deleniti, suscipit est accusamus aperiam corporis?
+                           </p>
+                        </div>
+                        
+                        <div class = "card-footer background-transparent border-dark mb-2">
+                            <a href="#" class="btn btn-primary text-light">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id = "learn" class = "p-5" data-spy = "scroll" data-target="#navbar">
+        <div class = "container">
+            <div class="row align-items-center justify-content-between">
+                <div class = "col-md">
+                    <img src="/img/web4.svg" alt="" class="img-fluid" style = "background: transparent;">
+                </div>
+
+                <div class = "col-md p-5">
+                      <h2>Learn the Fundamentals</h2>
+                      <p class = "lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem error, amet veritatis quis maxime voluptatem.
+                      </p>
+
+                      <p class = "lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem error, amet veritatis quis maxime voluptatem.
+                      </p>
+                      <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn React -->
+    <section id="id" class = "bg-dark text-light p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mt-3">
+                <div class="col-md pd-5">
+                    <h2>React</h2>
+                    <p class = "lead">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio facere mollitia hic exercitationem, atque ipsam!
+                    </p>
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Read More</a>
+                </div>
+
+                <div class="col-md">
+                    <img src="/img/web5.svg" alt="Learn React" class = "img-fluid mt-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordian -->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <!-- Question 1 -->
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne">
+                    1. Are the courses up to date?
+                    </button>
+                </h2>
+                <div id="questionOne" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">Yes. In Learn Everyday, our instructors put a lot of effort to update the course content and learning materials. We always attempt to provide the best
+                        education to our students. 
+                    </div>
+                </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="questions">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo">
+                    2. Is there a moneyback guarantee?
+                    </button>
+                </h2>
+                <div id="questionTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                    <div class="accordion-body">Yes. We offer students a 30-day moneyback guarantee if they do not like the course content or teaching materials.
+                        We always want the best for our students and strive to meet their expectations.
+                    </div>
+                </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="questions">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree">
+                        3. Where is the company located?
+                    </button>
+                </h2>
+                <div id="questionThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                    <div class="accordion-body">The company is located in Silicon Valley.</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors" class="p-5 bg-primary" data-bs-spy = "scroll" data-bs-target = "#navbar" data-bs-offset = "0" tabindex = "0" class = "scrollspy-example">
+        <div class="container">
+            <h2 class="text-center text-white mb-3">Our Instructors</h2>
+            <p class = "lead text-center text-white mb-5">
+                Our instructors all have 5+ years of experience as a web developer in the industry.
+            </p>
+            <div class="row g-4">
+                <!-- Instructor 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src = "https://randomuser.me/api/portraits/men/11.jpg" class = "rounded-circle" alt = "profile picture of an instructor" />
+                            <h3 class="card-title my-3">Patt Davidson</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quis quod officiis, neque modi incidunt.</p>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-light h4 text-center">
+                            <small class="text-muted">
+                                <a href = "#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-github text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src = "https://randomuser.me/api/portraits/women/12.jpg" class = "rounded-circle" alt = "profile picture of an instructor" />
+                            <h3 class="card-title my-3">Nia Collins</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quis quod officiis, neque modi incidunt.</p>
+                        </div>
+                        
+                        <div class="card-footer bg-transparent border-light h4 text-center">
+                            <small class="text-muted">
+                                <a href = "#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-github text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src = "https://randomuser.me/api/portraits/men/26.jpg" class = "rounded-circle" alt = "profile picture of an instructor" />
+                            <h3 class="card-title my-3">Ching Chong</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quis quod officiis, neque modi incidunt.</p>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-light h4 text-center">
+                            <small class="text-muted">
+                                <a href = "#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-github text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <img src = "https://randomuser.me/api/portraits/women/11.jpg" class = "rounded-circle" alt = "profile picture of an instructor" />
+                            <h3 class="card-title my-3">Caroline Smith</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quis quod officiis, neque modi incidunt.</p>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-light h4 text-center">
+                            <small class="text-muted">
+                                <a href = "#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-github text-dark mx-1"></i></a>
+                                <a href = "#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center position-relative p-5">
+        <div class = "container">
+            <p class="lead">Copyright &copy; Learn Everyday</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <h3 class= "lead mb-3">Please fill out the following form</h3>
+                <div class="mb-3">
+                    <form>
+                        <label for="firstName" class = "colo-form-label">
+                            FirstName: 
+                        </label>
+                        <input type = "text" class = "form-control" id = "first-name" />
+                    </form>
+                </div>
+
+                <div class="mb-3">
+                    <form>
+                        <label for="Name" class = "colo-form-label">
+                            Last Name: 
+                        </label>
+                        <input type = "text" class = "form-control" id = "last-name" />
+                    </form>
+                </div>
+
+                <div class="mb-3">
+                    <form>
+                        <label for="emailName" class = "colo-form-label">
+                            Email id:
+                        </label>
+                        <input type = "text" class = "form-control" id = "emailName" />
+                    </form>
+                </div>
+
+                <div class="mb-3">
+                    <form>
+                        <label for="phone" class = "colo-form-label">
+                            Phone: 
+                        </label>
+                        <input type = "text" class = "form-control" id = "phone" />
+                    </form>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Javascript for Bootstrap components -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>

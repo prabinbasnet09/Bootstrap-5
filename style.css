@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: auto;
+}
+
+.navbar-position {
+  position: fixed;
+}
+
+/* The media queries applies when the width of the windows is at least 780px or greater */
+@media (min-width: 780px) {
+  .news-input {
+    width: 50%;
+  }
+}
